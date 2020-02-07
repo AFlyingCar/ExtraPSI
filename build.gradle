@@ -55,6 +55,7 @@ dependencies {
     //deobfCompile 'com.mod-buildcraft:buildcraft:6.0.8:dev'
     //deobfProvided 'com.mod-buildcraft:buildcraft:6.0.8:dev'
 
+    compile "vazkii.autoreglib:AutoRegLib:${project.arl_version}"
     deobfCompile "vazkii.psi:Psi:${project.psi_version}"
 
     // for more info...

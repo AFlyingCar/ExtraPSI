@@ -2,6 +2,7 @@ package com.tgd.xpsi;
 
 import com.tgd.xpsi.spells.constants.PieceConstantString;
 import com.tgd.xpsi.spells.selectors.PieceSelectorNameTag;
+import com.tgd.xpsi.spells.tricks.PieceTrickAnnounce;
 import vazkii.psi.api.PsiAPI;
 import vazkii.psi.api.spell.SpellPiece;
 
@@ -12,6 +13,7 @@ public class ExtraPSISpells {
     public static void registerAll() {
         registerSpell(PieceSelectorNameTag.NAME, PieceSelectorNameTag.GROUP, PieceSelectorNameTag.class);
         registerSpell(PieceConstantString.NAME, PieceConstantString.GROUP, PieceConstantString.class);
+        registerSpell(PieceTrickAnnounce.NAME, PieceTrickAnnounce.GROUP, PieceTrickAnnounce.class);
     }
 
     public static void registerSpell(String name, String group, Class<? extends SpellPiece> klass) {
